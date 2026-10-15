@@ -10,3 +10,9 @@ jobs:
     steps:
       - name: print a wellcom message
         run: echo "hello from you first git hub action job this is the first job"
+  
+      - name: Checkout Repository
+        uses: actions/checkout@v6.1.0
+
+      - name: list repo content
+        run: ls -la
