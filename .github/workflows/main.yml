@@ -1,0 +1,12 @@
+name: First WorkFlow
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-job:
+    runs-on: ubuntu-slim
+    steps:
+      - name: print a wellcom message
+        run: echo "hello from you first git hub action job this is the first job"
