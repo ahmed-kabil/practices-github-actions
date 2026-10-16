@@ -4,3 +4,4 @@ function greet (name) {
 
 module.exports = greet ;
 // console.log(greet("ahmed"))
+// console.log(greet("ahmed"))
